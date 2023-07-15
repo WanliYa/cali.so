@@ -12,7 +12,7 @@ import { HoverCard } from '~/components/ui/HoverCard'
 import { makeBlurDataURL } from '~/lib/image'
 
 type PeekabooLinkProps = LinkProps &
-  React.ComponentPropsWithoutRef<'a'> & {
+  false
     children: React.ReactNode
   }
 export function PeekabooLink({
